@@ -13,7 +13,7 @@ public class person
  Navn
  Alder
 4. Disse værdier bruges til at lave en ny instans af en person
-5. Udskriv personen på konsollen
+5. Udskriv personen på konsolen
 ```c#
 Console.WriteLine(_person);
 ```
@@ -25,3 +25,5 @@ Console.WriteLine(_person);
 public event EventHandler ForGammel;
 ```
 8. Udløs hændelsen hvis man forsøger at tildele en værdi i alder som er over 125 år.
+9. I `Main()` efter personen er instansieret, så tilknyt en metode til hændelsen
+10. Metoden skal udskrive teksten 'En person kan ikke være over 125 år' i konsolen.
