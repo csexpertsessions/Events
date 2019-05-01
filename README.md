@@ -1,7 +1,7 @@
 # Events
 
 1. Lav en ny Console App (.NET Framework)
-2. Indsæt en klasse som skal representerer en person
+2. Opret en klasse som skal representerer en person i sin egen fil `person.cs`
 ```c#
 public class person
 {
