@@ -9,7 +9,7 @@ public class person
   public int Alder { get; set; }
 }
 ```
-3. i `Main()` på program.cs laves en rutine som propter brugeren for
+3. i `Main()` på program.cs laves en rutine som prompt'er brugeren for
  Navn
  Alder
 4. Disse værdier bruges til at lave en ny instans af en person
