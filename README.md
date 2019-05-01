@@ -9,22 +9,12 @@ public class person
   public int Alder { get; set; }
 }
 ```
-3. Indsæt en `foreach` som gennemløber værdierne og udskriver dem med en `Console.WriteLine`
-4. Kør koden og se svar
-5. Indsæt en `Array.Sort(tal);` før `foreach`
-6. Kør igen og konstater, at værdierne nu er sorteret.
-
-7. Opret en ny klasse 
+3. i `Main()` på program.cs laves en rutine som propter brugeren for
+ Navn
+ Alder
+4. Disse værdier bruges til at lave en ny instans af en person
+5. Udskriv personen i en konsollen
 ```c#
-public class Person
-{
-   public string Navn { get; set; }
-   public int alder { get; set; }
-}
+Console.WriteLine(_person);
 ```
-8. Lav nu et array af denne klasse og instansier 3 personer i listen
-9. Udskriv listen med en `foreach` sætning
-10. Kan man sorterer listen med en `Array.Sort` før `foreach`
-11. Hvorfor ikke?
-12. Implementer `IComparable` interface på klassen person.
-13. Kan man nu sorterer?
+6. Husk af overskrive ToString på person klasse for at dette virker
